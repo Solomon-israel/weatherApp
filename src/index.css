@@ -3,14 +3,20 @@
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+  color: white;
+}
+
+img {
+  width: 100%;
+  width: 100%;
 }
 
 body {
-  background-color: black;
+  background-color: #171823;
   /* background: url("https://picsum.photos/1600/900") center/cover; */
   height: 100vh;
 }
 
-h1{
+h1 {
   color: white;
 }
