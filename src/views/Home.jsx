@@ -33,11 +33,12 @@ export default function Home({ weather }) {
         </div>
         <div className={styles.wind}>
           <IoWater className={styles.windIcon} />
-          <p>02%</p>
+          {/* <p>02%</p> */}
+          <p>{weather.main.pressure}</p>
         </div>
         <div className={styles.wind}>
           <MdLightMode className={styles.windIcon} />
-          <p>8hr</p>
+          <p>{weather.wind.deg}</p>
         </div>
       </div>
       {/* </div> */}
